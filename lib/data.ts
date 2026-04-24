@@ -19,6 +19,8 @@ export const studio = {
   map2gis: "https://2gis.kg/bishkek/geo/15763234351164819/74.602491%2C42.875046",
   map2gisEmbed:
     "https://widgets.2gis.com/widget?type=firmsonmap&options=%7B%22pos%22%3A%7B%22lat%22%3A42.875572%2C%22lon%22%3A74.602941%2C%22zoom%22%3A18%7D%2C%22opt%22%3A%7B%22city%22%3A%22bishkek%22%7D%7D",
+  mapGoogleEmbed:
+    "https://www.google.com/maps?q=42.875572,74.602941&z=18&hl=ru&output=embed",
 };
 
 export const services = [

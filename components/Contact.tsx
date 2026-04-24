@@ -95,10 +95,12 @@ export default function Contact() {
             className="glass rounded-3xl p-3 relative overflow-hidden min-h-[380px] lg:min-h-full"
           >
             <iframe
-              src={studio.map2gisEmbed}
-              title="2GIS карта — Nurmat_MN студия"
+              src={studio.mapGoogleEmbed}
+              title="Карта — Nurmat_MN студия"
               className="w-full h-full min-h-[360px] rounded-2xl border-0"
               loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              allowFullScreen
             />
             <a
               href={studio.map2gis}
